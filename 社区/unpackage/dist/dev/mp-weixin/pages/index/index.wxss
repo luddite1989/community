@@ -1,0 +1,6 @@
+
+.textColor {
+	color: $uni-color-primary;
+}
+
+

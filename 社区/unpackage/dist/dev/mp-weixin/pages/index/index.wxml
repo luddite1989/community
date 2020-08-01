@@ -1,0 +1,1 @@
+<view><view class="t-icon iconA12" style="width:128rpx;height:128rpx;"></view><view class="animate__animated animate__faster" style="border:1rpx solid red;padding:20rpx;" hover-class="animate__pulse"><text class="textColor">点击效果</text></view></view>
