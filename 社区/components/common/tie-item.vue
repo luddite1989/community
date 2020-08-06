@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .wrap {
 	flex-direction: column;
 	width: 100%;

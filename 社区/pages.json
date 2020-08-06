@@ -1,47 +1,23 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/tabs/index/index",
 			"style": {
 				"app-plus": {
-					"titleNView": {
-						"backgroundColor": "#FFFFFF",
-						"searchInput": {
-							"backgroundColor": "#F0F0F0",
-							"borderRadius": "8px",
-							"disabled": true,
-							"placeholder": "大家都在搜...",
-							"placeholderColor": "#999999"
-						},
-						"buttons": [{
-								"fontSrc": "/static/icon.ttf",
-								"text": "\ue741",
-								"color": "#595BAD",
-								"fontSize": "28px"
-							},
-							{
-								"float": "left",
-								"text": "上海",
-								"fontSize": "14px",
-								"color": "#595BAD",
-								"select": true,
-								"width": "45px"
-							}
-						]
-					}
+					"titleNView": false
 				}
 			}
 		}, {
-			"path": "pages/world/world",
+			"path": "pages/tabs/world/world",
 			"style": {}
 		}, {
-			"path": "pages/shop/shop",
+			"path": "pages/tabs/shop/shop",
 			"style": {}
 		}, {
-			"path": "pages/mine/mine",
+			"path": "pages/tabs/mine/mine",
 			"style": {}
 		}
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "社区",
@@ -56,28 +32,28 @@
 		"backgroundColor": "#FFFFFF",
 		"height": "56px",
 		"list": [{
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/tabs/index/index",
 			"iconPath": "static/images/tabbar/ic_index.png",
 			"selectedIconPath": "static/images/tabbar/ic_index_selected.png",
 			"text": "首页"
 		}, {
-			"pagePath": "pages/world/world",
+			"pagePath": "pages/tabs/world/world",
 			"iconPath": "static/images/tabbar/ic_world.png",
 			"selectedIconPath": "static/images/tabbar/ic_world_selected.png",
 			"text": "发现"
 		}, {
-			"pagePath": "pages/shop/shop",
+			"pagePath": "pages/tabs/shop/shop",
 			"iconPath": "static/images/tabbar/ic_shop.png",
 			"selectedIconPath": "static/images/tabbar/ic_shop_selected.png",
 			"text": "好物"
 		}, {
-			"pagePath": "pages/mine/mine",
+			"pagePath": "pages/tabs/mine/mine",
 			"iconPath": "static/images/tabbar/ic_my.png",
 			"selectedIconPath": "static/images/tabbar/ic_my_selected.png",
 			"text": "我的"
 		}],
 		"midButton": {
-			"iconPath": "static/images/tabbar/ic_add.png",
+			"iconPath": "static/tabs/images/tabbar/ic_add.png",
 			"iconWidth": "52px"
 		}
 	}
